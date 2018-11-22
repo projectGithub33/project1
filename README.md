@@ -12,7 +12,7 @@ sont stockées dans la base de données MYSQL.
 a faire:
 
  1- Importation de la base de donnees
- => SQL > serviceMessagerie
+ => SQL > serviceMessagerie.sql
  
  2- Modification de la configuration de connexion
  => serveurMessagerie >ensa.messagerie.dao >MessageDao.java
