@@ -1,7 +1,5 @@
-# project1
-________________________
- Service de messagerie
-________________________
+#  Service de messagerie
+
 
 Ceci est une application de messagerie à distance , reposant sur le protocole RMI ;
 accessible par différents clients après une authentification dont les messages échangés  
