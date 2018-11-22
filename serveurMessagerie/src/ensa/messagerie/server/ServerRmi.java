@@ -16,10 +16,10 @@ public class ServerRmi {
 	 public static void main(String args[])throws RemoteException, MalformedURLException, AlreadyBoundException
 	 {
 	  //System.out.println("enter rmi port number");
-	  startRegistry(1080);
+	  startRegistry(1099);
 	  // register exported object to naming directory
 	  IMessageMetier message = new MessageMetier();
-	  String url = "rmi://localhost:"+1080+"/serviceMessagerie8";
+	  String url = "rmi://localhost:"+1099+"/serviceMessagerie";
 	  try
 	  {
 	   Naming.bind(url,message);
