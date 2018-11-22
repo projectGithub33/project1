@@ -22,7 +22,7 @@ public class AuthentificationServlet extends HttpServlet {
 		HttpSession session = req.getSession(); 
 		int id_sender = 0;
 		try {
-			IMessageMetier message = (IMessageMetier)Naming.lookup("rmi://localhost:1080/serviceMessagerie8");
+			IMessageMetier message = (IMessageMetier)Naming.lookup("rmi://localhost:1099/serviceMessagerie");
 			String login=req.getParameter("login");
 			String password=req.getParameter("password");
 	     	
