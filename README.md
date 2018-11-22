@@ -5,11 +5,12 @@ Ceci est une application de messagerie à distance , reposant sur le protocole R
 accessible par différents clients après une authentification dont les messages échangés  
 sont stockées dans la base de données MYSQL.
 
------------------------------------------------------
-serveurMessagerie : représente côté serveur
-clientMessagerie : représente côté client
------------------------------------------------------
+
+   - serveurMessagerie : représente côté serveur
+   - clientMessagerie : représente côté client
+
 a faire:
+
  1- Importation de la base de donnees
  => SQL > serviceMessagerie
  
